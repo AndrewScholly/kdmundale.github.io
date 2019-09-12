@@ -1,0 +1,33 @@
+header img {
+  inline-block: center;
+  padding: 10px;
+  vertical-align: middle;
+}
+body{
+  height: 125vh;
+  background-size: cover;
+}
+header {
+  color: #F4F6F6;
+  font-size: 1em;
+  font-style: italic;
+  font-family: fantasy;
+  font-stretch: extra-expanded;
+  background: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: 2px solid silver;
+}
+.top {
+  color: #F8C471
+}
+header * {
+  display: inline-block;
+  font-style: italic;
+  vertical-align: text-bottom;
+  padding: 5px;
+}
+a:hover {
+  color: pink;
+}
