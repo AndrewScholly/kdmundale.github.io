@@ -16,7 +16,7 @@ h1 {
   font-family: serif;
   font-style: italic;
   text-align: center;
-  margin: 6px;
+  margin: 10px;
 }
 h4 {
   display: block;
@@ -26,7 +26,7 @@ h4 {
   font-family: serif;
   text-decoration: underline;
   text-align: center;
-  margin: 4px;
+  margin: 10px;
 }
 h3 {
   display: block;
@@ -34,14 +34,14 @@ h3 {
   font-size: 24px;
   font-family: serif;
   font-weight: bold;
-  margin: 4px;
+  margin: 10px;
 }
 h5 {
   display: block;
   color: orange;
   font-size: 16px;
   font-style: italic;
-  margin: 4px;
+  margin: 10px;
 
 }
 .nice {
@@ -54,8 +54,14 @@ h5 {
 
 }
 p {
-  margin: 4px;
+  margin: 8px;
 }
 ul {
-  margin: 7px;
+  margin: 8px;
+}
+a {
+  color: teal;
+}
+a:hover {
+  color: pink;
 }
