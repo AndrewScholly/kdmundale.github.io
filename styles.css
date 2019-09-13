@@ -2,22 +2,30 @@ header img {
   inline-block: center;
   padding: 10px;
   vertical-align: middle;
+  margin-left: 15px;
 }
 body{
   height: 125vh;
   background-size: cover;
+  background-color: black;
+}
+p {
+  color: white;
 }
 header {
   color: #F4F6F6;
-  font-size: 1em;
+  font-size: 35px;
   font-style: italic;
   font-family: fantasy;
   font-stretch: extra-expanded;
   background: black;
-  top: 0;
-  left: 0;
-  right: 0;
+  vertical-align: middle;
+  text-align: center;
+  align-items: center;
   border: 2px solid silver;
+}
+nav {
+  align-items: center;
 }
 .top {
   color: #F8C471
@@ -27,7 +35,12 @@ header * {
   font-style: italic;
   vertical-align: text-bottom;
   padding: 5px;
+  margin: 5px;
 }
 a:hover {
   color: pink;
+}
+.nav {
+  font-size: 14px;
+  vertical-align: bottom;
 }
