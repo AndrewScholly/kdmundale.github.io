@@ -1,6 +1,7 @@
 body {
   display: block;
   margin: 10px;
+  font-family: sans-serif;
   color: #a3e4d7;
   background: black;
 }
@@ -13,7 +14,6 @@ h1 {
   color: #ec7063;
   font-size: 60px;
   font-weight: bold;
-  font-family: serif;
   font-style: italic;
   text-align: center;
   margin: 10px;
@@ -23,7 +23,6 @@ h4 {
   color: #ec7063;
   font-size: 18px;
   font-weight: normal;
-  font-family: serif;
   text-decoration: underline;
   text-align: center;
   margin: 10px;
@@ -32,7 +31,6 @@ h3 {
   display: block;
   color: #F8C471;
   font-size: 24px;
-  font-family: serif;
   font-weight: bold;
   margin: 10px;
 }
@@ -47,7 +45,6 @@ h5 {
 .nice {
   display: block;
   font-size: 18px;
-  font-family: serif;
   text-align: center;
 }
 .important{
