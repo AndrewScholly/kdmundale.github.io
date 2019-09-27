@@ -1,46 +1,105 @@
-header img {
-  inline-block: center;
-  padding: 10px;
-  vertical-align: middle;
-  margin-left: 15px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
+img.knuckles {
+  align-self: flex-start;
+}
+
+.up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Rye";
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 1px solid gold;
+}
+
+.knuckles {
+  height: 150px;
+  width: 150px;
+}
+
+.up {
+  justify-content: center;
+}
+
+a {
+  color: #ec7063;
+  text-decoration: none;
+}
+
+.nav {
+  flex-direction: row;
+  padding-top: 30px;
+}
+
+.nav>a {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
   height: 125vh;
   background-size: cover;
   background-color: black;
+  color: #a3e4d7;
+  font-family: sans-serif;
+}
+.intro {
+  padding: 6em 3em 4em 3em;
+  pad
+  content:"";
+  display: block;
+  clear: both;
 }
 p {
-  color: white;
+  margin: 10px;
 }
-header {
-  color: #F4F6F6;
-  font-size: 35px;
-  font-style: italic;
-  font-family: fantasy;
-  font-stretch: extra-expanded;
-  background: black;
-  vertical-align: middle;
+.midway {
+  display: flex;
+}
+.blurb {
   text-align: center;
-  align-items: center;
-  border: 2px solid silver;
+  width: 350px;
+  height: 300 px;
+  border: 1px solid gold;
+  padding: 40px;
+  margin: 20px;
 }
-nav {
-  align-items: center;
+
+.profile-pic {
+  margin-right: 10px;
+  float: left;
+  width: 150px;
+  height: 190px;
 }
-.top {
-  color: #F8C471
-}
-header * {
-  display: inline-block;
+
+.cool {
   font-style: italic;
-  vertical-align: text-bottom;
-  padding: 5px;
-  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
 }
+aside.cool-links {
+  width: 25%;
+  height: 200px;
+  border: 1px solid gold;
+}
+
 a:hover {
   color: pink;
 }
-.nav {
-  font-size: 14px;
-  vertical-align: bottom;
+
+h3 {
+  color: orange;
 }
