@@ -59,13 +59,14 @@ body {
 }
 .intro {
   padding: 4em 3em 4em 3em;
-  pad
-  content:"";
-  display: block;
-  clear: both;
 }
 p {
   margin: 10px;
+}
+
+.hi {
+  display: flex;
+  flex-direction: row;
 }
 .midway {
   display: flex;
@@ -80,11 +81,22 @@ p {
   padding: 40px;
 }
 
+.over {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  order: 2;
+}
 .profile-pic {
-  margin: 0 20px 20px 0;
-  float: left;
+  margin: 2em 3em 1em 2em;
   width: 150px;
   height: 190px;
+}
+
+.design1 {
+  width: 6em;
+  height: 6em;
+  margin: 0 0 35px 90px;
 }
 
 .cool {
