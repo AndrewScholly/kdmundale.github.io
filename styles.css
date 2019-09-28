@@ -23,6 +23,7 @@ header {
   height: 125px;
   width: 125px;
   align-self: flex-start;
+  margin: 5px;
 }
 
 .up {
@@ -80,7 +81,7 @@ p {
 }
 
 .profile-pic {
-  margin-right: 10px;
+  margin: 0 20px 20px 0;
   float: left;
   width: 150px;
   height: 190px;
@@ -108,4 +109,47 @@ a:hover {
 
 h3 {
   color: orange;
+}
+
+#persp {
+  color: orange;
+}
+
+.resume-box {
+  border: 3px solid orange;
+  padding: 1em;
+}
+
+.pp {
+  font-family: "Ewert", cursive;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+span {
+  color: orange;
+  font-style: italic;
+  font-size: 24px;
+}
+ .one {
+   margin-top: 10px;
+ }
+
+ .resume-top>p {
+   text-align: center;
+   color: #F8C471;
+ }
+
+ h4.title {
+   text-align: center;
+   color: magenta;
+ }
+
+ h5 {
+   color: magenta;
+   margin: 5px 0 5px 0;
+}
+
+h3.job {
+  margin: 10px 0 5px 0;
 }
