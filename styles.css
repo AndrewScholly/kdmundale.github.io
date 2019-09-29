@@ -20,12 +20,16 @@ header {
 }
 
 .knuckles {
-  height: 125px;
+  height: 115px;
   width: 125px;
   align-self: flex-start;
-  margin: 5px;
+  margin: 10px 0 0 0;
 }
 
+.rose {
+  width: 150px;
+  height: 150px;
+}
 .up {
   justify-content: center;
 }
@@ -57,16 +61,21 @@ body {
   color: #a3e4d7;
   font-family: sans-serif;
 }
-.intro {
-  padding: 4em 3em 4em 3em;
-}
-p {
-  margin: 10px;
-}
 
 .hi {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3em;
+  margin-bottom: 4em;
+}
+
+.intro {
+  margin-left: 3em;
+  margin-right: 2em;
+}
+
+
 }
 .midway {
   display: flex;
@@ -88,15 +97,27 @@ p {
   order: 2;
 }
 .profile-pic {
-  margin: 2em 3em 1em 2em;
+  margin: -5px 6em -5px 0;
   width: 150px;
   height: 190px;
 }
+.design2 {
+  width: 4em;
+  height: 4em;
+  margin-left: 8em;
 
+}
 .design1 {
-  width: 6em;
-  height: 6em;
-  margin: 0 0 35px 90px;
+  width: 4em;
+  height: 4em;
+  margin-left: 8em;
+}
+
+.midway {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-bottom: 3em;
 }
 
 .cool {
@@ -125,6 +146,7 @@ h3 {
 
 #persp {
   color: orange;
+  margin-bottom: 10px;
 }
 
 .resume-box {
@@ -144,13 +166,18 @@ span {
   font-size: 24px;
 }
  .one {
-   margin-top: 10px;
+   margin-bottom: 10px;
  }
 
  .resume-top>p {
    text-align: center;
    color: #F8C471;
  }
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
  h4.title {
    text-align: center;
@@ -164,4 +191,25 @@ span {
 
 h3.job {
   margin: 10px 0 5px 0;
+}
+
+.mom1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.mom2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.momvid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mom {
+  height: 250px;
 }
