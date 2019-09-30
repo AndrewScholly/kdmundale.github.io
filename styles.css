@@ -126,6 +126,9 @@ margin-bottom: 3em;
   font-weight: bold;
 }
 .cool-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: "Rye";
   width: 25%;
   height: 200px;
@@ -147,6 +150,10 @@ h3 {
 #persp {
   color: orange;
   margin-bottom: 10px;
+}
+
+.mark {
+  height: 150px;
 }
 
 .resume-box {
