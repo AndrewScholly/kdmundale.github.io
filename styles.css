@@ -138,6 +138,7 @@ justify-content: space-around;
 
 .cl {
   align-items: center;
+  font-family: "Rye";
   margin-top: 20px;
 }
 a:hover {
@@ -199,7 +200,8 @@ h3 {
 }
 
 .resume-box {
-  border: 3px solid orange;
+  border-bottom: 2px solid orange;
+  border-top: 2px solid orange;
   padding: 2.5em;
   margin-top: 3em;
 }
@@ -209,7 +211,14 @@ h3 {
   font-size: 50px;
   margin-bottom: 5px;
 }
+.back {
+  background: #ec7063;
+  border-radius: 30%;
+  color: black;
+  font-family: cursive;
+  padding: 1em;
 
+}
 
 }
 span {
