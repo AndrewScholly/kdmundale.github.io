@@ -200,8 +200,6 @@ h3 {
 }
 
 .resume-box {
-  border-bottom: 2px solid orange;
-  border-top: 2px solid orange;
   padding: 2.5em;
   margin-top: 3em;
 }
@@ -216,7 +214,7 @@ h3 {
   border-radius: 30%;
   color: black;
   font-family: cursive;
-  padding: 1em;
+  padding: 5px;
 
 }
 
@@ -308,7 +306,7 @@ text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 1em;
+  padding: 1em;
   border: none;
 }
  .topper {
@@ -320,6 +318,8 @@ text-align: center;
    display: flex;
    flex-direction: column;
    justify-content: center;
+   margin-left: 3em;
+   margin-right: 3em;
  }
 
 .aw2 {
