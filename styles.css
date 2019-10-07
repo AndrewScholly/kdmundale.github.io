@@ -18,6 +18,9 @@ header {
   text-align: center;
   border-bottom: 1px solid gold;
 }
+h1{
+  margin: 0 1em 0 1em;
+}
  .market, .momlife, .resume-box, .writing, .midway {
   margin-bottom: 8em;
 }
@@ -86,8 +89,7 @@ main {
 }
 
 .intro {
-  margin-left: 3em;
-  margin-right: 2em;
+  margin: 3em 3em 1em 2em;
 }
 .midway {
   display: flex;
@@ -142,7 +144,7 @@ justify-content: space-around;
   flex-wrap: wrap;
   justify-content: center;
   font-family: "Rye";
-  margin: 2em;
+  margin: 2em 2em 4em 2em;
   width: 60%;
   border: 1px solid gold;
 }
@@ -189,6 +191,7 @@ h3 {
 .market1 {
   display:flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .market2 {
@@ -211,6 +214,9 @@ h3 {
 }
 
 .resume-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 2.5em;
   margin-top: 3em;
 }
@@ -226,7 +232,9 @@ h3 {
   color: black;
   font-family: cursive;
   padding: 5px;
-
+}
+.bk {
+  margin-top: 2em;
 }
 
 }
