@@ -1,7 +1,7 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .up {
@@ -11,13 +11,14 @@
 }
 
 header {
+  border-bottom: 1px solid gold;
   display: flex;
-  justify-content: space-around;
   font-family: "Rye";
   font-size: 24px;
+  justify-content: space-around;
   text-align: center;
-  border-bottom: 1px solid gold;
 }
+
 h1{
   margin: 0 1em 0 1em;
 }
@@ -25,15 +26,15 @@ h1{
   margin-bottom: 8em;
 }
 .knuckles {
-  height: 115px;
-  width: 125px;
   align-self: flex-start;
+  height: 115px;
   margin: 10px 0 0 0;
+  width: 125px;
 }
 
 .rose {
-  width: 150px;
   height: 150px;
+  width: 150px;
 }
 .up {
   justify-content: center;
@@ -60,48 +61,51 @@ ul {
 }
 
 body {
+  align-items: center;
+  background-color: black;
+  background-size: cover;
+  color: #a3e4d7;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  font-family: 'Lato', sans-serif;
   height: 125vh;
-  background-size: cover;
-  background-color: black;
-  color: #a3e4d7;
-  font-family: sans-serif;
 }
 .main {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 main {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
 .hi {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-bottom: 4em;
 }
 
 .intro {
   margin: 3em 3em 1em 2em;
+  width: 85%;
 }
 .midway {
+  align-items: center;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   padding-bottom: 50px;
 }
 .blurb {
-  text-align: center;
-  width: 350px;
-  height: 300 px;
+  align-items: center;
   border: 1px solid gold;
-  padding: 40px;
+  display: flex;
+  height: 150px;
+  text-align: center;
+  width: 35%;
 }
 
 .over {
@@ -110,21 +114,21 @@ main {
   justify-content: space-around;
 }
 .profile-pic {
+  height: 190px;
   margin: 0 0 1em 0;
   width: 150px;
-  height: 190px;
 }
 .design2 {
   display: none;
-  width: 4em;
   height: 4em;
   margin-left: 8em;
+  width: 4em;
 }
 .design1 {
   display: none;
-  width: 4em;
   height: 4em;
   margin-left: 8em;
+  width: 4em;
 }
 
 .midway {
@@ -134,19 +138,19 @@ justify-content: space-around;
 }
 
 .cool {
-  font-style: italic;
   font-size: 20px;
+  font-style: italic;
   font-weight: bold;
 }
 .cool-links {
+  border: 1px solid gold;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   font-family: "Rye";
+  justify-content: center;
   margin: 2em 2em 4em 2em;
   width: 60%;
-  border: 1px solid gold;
 }
 
 .cl {
@@ -168,63 +172,63 @@ h3 {
 }
 
 .mar {
-  font-size: 24px;
   font-family: "rye";
-  text-align: center;
+  font-size: 24px;
   margin-bottom: 1em;
   margin-top: 2em;
+  text-align: center;
+
 }
 
 .ket {
-  width: 18em;
   height: 3em;
+  width: 18em;
 }
 .market {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   margin-left: 2em;
   margin-right: 2em;
 }
 
 .market1 {
+  align-items: center;
   display:flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .market2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  text-align: center;
   margin-bottom: 2em;
+  text-align: center;
 }
 .market2 > p {
-  width: 250px;
-  border-top: 2px solid orange;
   border-bottom: 2px solid orange;
+  border-top: 2px solid orange;
   padding: 1em;
+  width: 250px;
 }
 .mark {
   height: 150px;
-  width: 150px;
   margin: 1em;
+  width: 150px;
 }
 
 .resume-box {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 2.5em;
   margin-top: 3em;
+  padding: 2.5em;
 }
 
 .pp {
   font-family: "Ewert", cursive;
   font-size: 50px;
-  margin-bottom: 5px;
 }
 .back {
   background: #ec7063;
@@ -237,7 +241,6 @@ h3 {
   margin-top: 2em;
 }
 
-}
 span {
   color: orange;
   font-style: italic;
@@ -253,11 +256,12 @@ span {
  }
 
 p {
+  line-height: 22px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
- h4.title {
+.title {
    text-align: center;
    color: magenta;
  }
@@ -267,7 +271,7 @@ p {
    margin: 5px 0 5px 0;
 }
 
-h3.job {
+.job {
   margin: 10px 0 5px 0;
 }
 .momlife {
@@ -290,12 +294,15 @@ h3.job {
 }
 
 .mom2 > p {
-  width: 250px;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  border-top: 2px solid orange;
+  align-items: center;
   border-bottom: 2px solid orange;
+  border-top: 2px solid orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1em;
+  text-align: center;
+  width: 250px;
 }
 
 .momvid {
