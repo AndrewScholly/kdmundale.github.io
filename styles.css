@@ -142,7 +142,6 @@ main {
 
 .cool {
   font-size: 20px;
-  font-style: italic;
   font-weight: bold;
 }
 .cool-links {
@@ -155,7 +154,7 @@ main {
 .cl {
   align-items: center;
   font-family: "Rye";
-  margin: 10px 0 10px 0;
+  line-height: 2em;
 }
 a:hover {
   color: pink;
@@ -338,10 +337,11 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .writing > p {
   margin: 2em 5em 2em 5em;
-text-align: center;
+  text-align: center;
   width: 45%;
 }
 /* Styles for writing samples */
@@ -356,6 +356,18 @@ text-align: center;
  .topper {
    height: 3em;
    width: 20em;
+ }
+ .flower {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+ }
+ .mand {
+   height: 150px;
+   margin: 6em 2em 2em 2em;
  }
 
  .aw1 {
@@ -450,6 +462,9 @@ footer {
 .mom2 {
   flex-direction: row;
 }
+.flower {
+  flex-direction: row;
+}
 }
 
 @media screen and (min-width: 1100px) {
@@ -466,7 +481,7 @@ footer {
     flex-direction: row;
     }
     .border {
-      width: 3.5em;
+      width: 4em;
     }
     .border1 {
       display: block;
@@ -481,11 +496,9 @@ footer {
 }
 @media screen and (min-width: 1300px) {
   .border1 {
-    position: absolute;
-    left: 5em;
+    left: 4em;
   }
   .border2 {
-    position: absolute;
-    right: 5em;
+    right: 4em;
   }
 }
