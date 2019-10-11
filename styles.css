@@ -107,7 +107,7 @@ main {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 2em;
+  margin: 0 0 2em 0em;
   text-align: center;
 }
 
@@ -367,7 +367,9 @@ h5 {
   width: 187.5px;
   margin: 1em;
 }
-
+.profile-pic, .mark1a, .mark, .mom {
+  filter: drop-shadow(0px 0px 15px teal)
+}
 .writing {
   display: flex;
   flex-direction: column;
@@ -483,6 +485,15 @@ footer {
     font-size: 20px;
   }
 
+  .mom:hover {
+    filter: drop-shadow(0px 0px 20px magenta);
+  }
+  .mark:hover {
+    filter: drop-shadow(0px 0px 20px magenta);
+    }
+.mark1a:hover {
+  filter: drop-shadow(0px 0px 20px magenta);
+}
   .knuckles {
     position: absolute;
     top: 3em;
@@ -536,6 +547,9 @@ footer {
   .profile-pic {
     margin: -5px 6em -5px 0;
   }
+  .hi {
+    margin-left: 1em;
+  }
 
   .intro {
     order: -1;
@@ -563,11 +577,14 @@ footer {
     align-items: center;
     justify-content: space-between;
   }
-
+.circle:hover {
+  filter: hue-rotate(180deg);
+}
   .circle {
     animation: 1.5s infinite alternate circle;
     display: block;
     height: 200px;
+    filter: saturate(150%);
   }
 
   #flower1 {
@@ -651,7 +668,6 @@ footer {
     top: 3em;
     left: 4em;
   }
-
   .rose {
     top: 1.5em;
     right: 3em;
