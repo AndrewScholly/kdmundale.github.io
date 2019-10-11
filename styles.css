@@ -384,11 +384,6 @@ p {
    margin-left: 3em;
    margin-right: 3em;
  }
-
-.aw2 {
-  display: flex;
-  justify-content: center;
-}
 details {
   font-family: 'Lato';
   font-size: 18px;
@@ -423,6 +418,12 @@ footer {
   width: 100%;
 
 }
+.another {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Display Tablet & Desktop */
 @media screen and (min-width: 676px) {
   .knuckles {
@@ -544,6 +545,19 @@ clip-path: circle(0%);
 to {
 -webkit-clip-path: circle(120px);
 clip-path: circle(120px);
+}
+}
+.aw {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.writeborder {
+  display: block;
+  margin: 0;
+  width: 75px;
+  height: 2470px;
 }
 }
 @media screen and (min-width: 1040px) {
